@@ -1,5 +1,6 @@
 format = """
 $cmd_duration\
+$time\
 $directory
 $character\
 """
@@ -8,10 +9,15 @@ $character\
 min_time = 0
 show_milliseconds = true
 style = "black bg:yellow"
-format = "[ $duration ]($style)[\ue0b0 ](yellow bg:blue)"
+format = "[ $duration ]($style)"
 
 [directory]
 style = "black bg:blue"
 format = "[$path ]($style)[\ue0b0](blue)"
 truncation_length = 3
 truncation_symbol = ".../"
+
+[time]
+disabled=false
+style="black bg:yellow"
+format="[at $time ]($style)[\ue0b0 ](yellow bg:blue)"
