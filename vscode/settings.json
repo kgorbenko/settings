@@ -1,0 +1,15 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": false,
+    "editor.fontFamily": "'JetBrains Mono', 'Consolas', monospace",
+    "editor.fontSize": 12,
+    "editor.fontWeight": "bold",
+    "editor.minimap.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.glyphMargin": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "workbench.statusBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "right",
+}
