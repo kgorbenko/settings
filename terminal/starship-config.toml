@@ -1,23 +1,34 @@
 format = """
+$status\
 $cmd_duration\
-$time\
-$directory
+$directory\
+$fill\
+$time
 $character\
 """
+
+[status]
+disabled=false
+style="black bg:red"
+format="[ $symbol Exit code: $status [](red bg:yellow)]($style)"
 
 [cmd_duration]
 min_time = 0
 show_milliseconds = true
 style = "black bg:yellow"
-format = "[ $duration ]($style)"
+format = "[ $duration ]($style)[](yellow bg:blue)"
 
 [directory]
 style = "black bg:blue"
-format = "[$path ]($style)[\ue0b0](blue)"
+format = "[ $path ]($style)[\ue0b0](blue)"
 truncation_length = 3
 truncation_symbol = ".../"
 
+[fill]
+symbol = '-'
+style = 'bold blue'
+
 [time]
 disabled=false
-style="black bg:yellow"
-format="[at $time ]($style)[\ue0b0 ](yellow bg:blue)"
+style="black bg:blue"
+format="[](blue)[ $time ]($style)"
