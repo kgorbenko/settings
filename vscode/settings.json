@@ -12,4 +12,11 @@
     "workbench.statusBar.visible": true,
     "breadcrumbs.enabled": false,
     "workbench.sideBar.location": "right",
+    "extensions.ignoreRecommendations": true,
+    "emmet.showExpandedAbbreviation": "never",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.formatOnSaveMode": "modifications",
+    "terminal.integrated.hideOnStartup": "always",
+    "powershell.integratedConsole.showOnStartup": false,
+    "powershell.integratedConsole.startInBackground": false
 }
